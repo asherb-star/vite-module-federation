@@ -7,7 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React! Host application </p>
+        <p>
+          Hello Vite + React!{" "}
+          <span style={{ backgroundColor: "#2F8F9D" }}>Host application</span>
+        </p>
         <Button />
       </header>
     </div>
